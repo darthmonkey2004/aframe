@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "opencv-python"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aframe"
+version = "0.0.1"
+authors = [
+  { name="Matt McClellan", email="darthmonkey2004@gmail.com" },
+]
+description = "python3 utility for creating virtual (webVr/Ar) applications with aframe.js/aframe-ar.js"
+readme = "README.md"
+requires-python = ">=3.12.3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/darthmonkey2004/aframe"
+Issues = "https://github.com/darthmonkey2004/aframe/issues"
